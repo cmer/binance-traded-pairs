@@ -1,0 +1,45 @@
+GIT
+  remote: git://github.com/cmer/binance-ruby.git
+  revision: 7230296ed76753e9bb6880abe58ca498fdca4def
+  branch: instance_variable_key
+  specs:
+    binance-ruby (0.1.5)
+      activesupport (~> 5.1)
+      awrence (~> 1.0)
+      httparty (~> 0.15)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.1.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    awrence (1.0.0)
+    concurrent-ruby (1.0.5)
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.11.1)
+    multi_xml (0.6.0)
+    thread_safe (0.3.6)
+    tty-cursor (0.5.0)
+    tty-progressbar (0.13.0)
+      tty-cursor (~> 0.5.0)
+      tty-screen (~> 0.6.0)
+    tty-screen (0.6.4)
+    tzinfo (1.2.4)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  binance-ruby!
+  httparty
+  tty-progressbar
+
+BUNDLED WITH
+   1.16.1
