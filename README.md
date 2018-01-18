@@ -1,4 +1,4 @@
-# Binance Trading Pairs
+# Binance Traded Pairs
 
 This is a simple Ruby script that retrieves all the pairs you've traded on Binance. It supports multiple accounts and simple throttling to avoid getting banned by Binance's API.
 
